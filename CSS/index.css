@@ -5,6 +5,13 @@ body{
     margin: 0px;
     
 }
+.container{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
 
 #sidebar_menu_item:hover{
     font-weight: bolder;
@@ -14,10 +21,11 @@ body{
 .sidebar{
     position: relative;
     float: left;
-    width: 20%;
+    width:20%;
     height: 100vh;
     text-align: center;
     background: url("../media/sidebar.jpg");
+    background-attachment:inherit;
     background-repeat: no-repeat;
     background-size:cover;
     box-shadow: 0px 0px 10px white;
