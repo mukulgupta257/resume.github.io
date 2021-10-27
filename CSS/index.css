@@ -1,0 +1,101 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    
+}
+
+#sidebar_menu_item:hover{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.sidebar{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+    background: url("../media/sidebar.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 0px 10px white;
+}            
+#about_me{
+    background:url("../media/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    position:relative;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+}
+#sidebar_menu_item{
+    color: black;
+    font-weight: bold;
+}
+#sidebar_menu{
+    text-decoration: none;
+    margin-top: 290px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content_aboutme{
+    color: white;
+    text-shadow: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+#display_img{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width:240px; 
+    height:240px;
+}        
+#display_img:hover{
+    border-radius: 10px;
+    width:300; 
+    height:300;
+    box-shadow: 0px 0px 10px black;
+}
+#github{
+    text-decoration: none;
+    color:white;
+}
+#hire_button{
+    margin-top:30px ;
+    width: 120px;
+    height: 40px;
+    border: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:medium;
+    color: white;
+    background: royalblue;
+    padding: 10px;
+}
+#hire_button:hover{
+    margin-top:25px ;
+    width: 140px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#hire_button:active
+{
+    margin-top:30px ;
+    width: 120px;
+    height: 40px;
+    border: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:medium;
+    color: white;
+    background: royalblue;
+    padding: 10px;
+}

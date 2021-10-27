@@ -1,0 +1,82 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+/* CSS FOR SIDEBAR */
+.sidebar{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+    background: url("../media/sidebar.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 0px 10px white;
+}   
+/* CSS SIDEBAR MENU */
+#sidebar_menu_item{
+    color: black;
+    font-weight: bold;
+}
+#sidebar_menu_item:hover{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#sidebar_menu{
+    text-decoration: none;
+    margin-top: 290px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Main body about educational qualification  */
+#Edu_description{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    position:relative;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+}
+/* Styling for table */
+table{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 200px;
+    color: black;
+    border: 2px solid white;
+}
+/* CSS for even table rows */
+[row='upper']{
+    height: 30px;
+    width: 250px;
+    background:lightgrey;
+    border:2px solid darkgrey;
+}
+/* CSS for odd table rows */
+[row='low']
+{
+    height: 30px;
+    width: 250px;
+    
+    border:2px solid darkgrey;
+}
+/* Css to make linked font same in table */
+.Institute{
+    color: black;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Institute:hover{
+    color: black;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}

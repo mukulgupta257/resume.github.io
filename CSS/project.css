@@ -1,0 +1,34 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+/* CSS FOR SIDEBAR */
+.sidebar{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+    background: url("../media/sidebar.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 0px 10px white;
+}   
+/* CSS SIDEBAR MENU */
+#sidebar_menu_item{
+    color: black;
+    font-weight: bold;
+}
+#sidebar_menu_item:hover{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#sidebar_menu{
+    text-decoration: none;
+    margin-top: 290px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
