@@ -3,18 +3,20 @@
 }
 body{
     margin: 0px;
+    background-color: lightsteelblue;
 }
 /* CSS FOR SIDEBAR */
 .sidebar{
-    position: relative;
-    float: left;
-    width: 20%;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 20vw;
     height: 100vh;
     text-align: center;
     background: url("../media/sidebar.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    box-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }   
 /* CSS SIDEBAR MENU */
 #sidebar_menu_item{
@@ -33,3 +35,52 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* main div about projects */
+.projects{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    width: 80vw;
+    height: 100vh;
+    text-align: center;
+}
+table{
+    padding: 10px;
+    margin: 50px;
+    width: 70vw;  
+}
+td{
+    padding: 10px;
+}
+img{
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 5%;
+    margin-right: 20px;
+    height: 180px;
+    width: 250px;
+}
+/* img:hover{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border-radius: 10%;
+    margin-right: 20px;
+    height: 190px;
+    width: 260px;
+} */
+.table_text{
+    color: #ffffff;
+    background-color: #572422;
+    font-size: 1.1em;
+    
+}
+.action{
+    color: #ffffff;
+    background-color: #572422;
+    font-size: 1em;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    background-color: #572422;
+    font-size: 1.2em;
+}
