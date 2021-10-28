@@ -78,7 +78,12 @@ img{
     background-color: #572422;
     font-size: 1em;
 }
-a:hover{
+.action_link{
+    color: #ffffff;
+    background-color: #572422;
+    font-size: 1em;
+}
+.action_link:hover{
     text-decoration: underline;
     color: rgb(255, 0, 0);
     background-color: #572422;
